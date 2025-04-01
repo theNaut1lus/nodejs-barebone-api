@@ -18,3 +18,12 @@ Content-Type: application/json
 ###
 
 DELETE http://localhost:3000/subscribers/67eb59df31fbb8c81135f018
+
+###
+
+PATCH http://localhost:3000/subscribers/67eb5a5d02521a7ffed814cc
+Content-Type: application/json
+
+{
+    "name": "New name"
+}
