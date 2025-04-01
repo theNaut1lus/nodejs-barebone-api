@@ -2,7 +2,7 @@ GET http://localhost:3000/subscribers
 
 ###
 
-GET http://localhost:3000/subscribers/15
+GET http://localhost:3000/subscribers/67eb5a7802521a7ffed814d5
 
 ###
 
@@ -14,3 +14,7 @@ Content-Type: application/json
     "name": "Amazing Person",
     "subscribedToChannel": "Sample Channel"
 }
+
+###
+
+DELETE http://localhost:3000/subscribers/67eb59df31fbb8c81135f018
